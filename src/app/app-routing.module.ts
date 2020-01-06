@@ -8,9 +8,14 @@ import { ProjetosComponent } from './projetos/projetos.component';
 const routes: Routes = [
   { path: 'home', component: ContentComponent},
   { path: 'login', component: LoginComponent},
+<<<<<<< HEAD
   { path: 'home-logada', component: HomeLogadaComponent},
   { path: 'projetos', component: ProjetosComponent},
   { path: '**', redirectTo: "home"},
+=======
+  { path: 'projetos', component: ProjetosComponent},
+  { path: '**', redirectTo: 'home'},
+>>>>>>> c91ea3820919901b39243ac80c65bf4671fa5e59
 ];
 
 @NgModule({
